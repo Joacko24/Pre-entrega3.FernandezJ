@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'figtree', sans-serif;
+}
+.hero{
+    background-image: url("../img/fondo.png");
+    background-size: cover;
+    height: 100vh;
+    align-items:flex-end;
+    justify-content:flex-end;
+    background-position-x: center;
+}
+
+.altura{
+    margin-bottom: 100px;
+}
+
+.fondo{
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.card-text{
+    justify-content: left;
+}
+
