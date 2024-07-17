@@ -6,6 +6,11 @@
     font-weight: 400;
     font-style: normal;
 }
+
+section{
+
+}
+
 .hero{
     background-image: url("../img/fondo.png");
     background-size: cover;
@@ -13,7 +18,7 @@
     align-items:flex-end;
     justify-content:flex-end;
     background-position-x: center;
-    color: white;
+    color: #ffffff;
 }
 
 .altura{
@@ -24,6 +29,10 @@
     background-image: url("../img/fondo.jpg");
     background-size: cover;
     height: 100vh;
+    align-items:flex-end;
+    justify-content:flex-end;
+    background-position-x: center;
+    color: #ffffff;
 }
 
 .card-text{
@@ -34,17 +43,24 @@
 .formulario{
     display: block;
     height: 2rem;
-    margin-left: 4%;
+    margin: 10px;
+    margin-left: 40px;
+    
+    border: 0;
+    border-radius: 10px;
 }
 
 .radio{
-    margin-left: 6%;
+    margin-left: 40px;
 }
 
 .button{
-    margin-left: 5%;
-    margin-top: 0.4%;
+    margin: 10px;
+    margin-left: 40px;
     display: block;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 footer {
@@ -67,6 +83,6 @@ li{
 }
 
 a{
-    color: white;
+    color: #ffffff;
     text-decoration: none;
 }
