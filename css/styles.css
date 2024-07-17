@@ -13,6 +13,7 @@
     align-items:flex-end;
     justify-content:flex-end;
     background-position-x: center;
+    color: white;
 }
 
 .altura{
@@ -27,6 +28,23 @@
 
 .card-text{
     justify-content: left;
+    font-size: 14px;
+}
+
+.formulario{
+    display: block;
+    height: 2rem;
+    margin-left: 4%;
+}
+
+.radio{
+    margin-left: 6%;
+}
+
+.button{
+    margin-left: 5%;
+    margin-top: 0.4%;
+    display: block;
 }
 
 footer {
@@ -35,5 +53,20 @@ footer {
     padding: 10px;
     position: absolute;
     width: 100%;
+    
+}
+
+.navegacion__footer{
+    display: flex;
+    gap: 100px;
+}
+
+li{
+    margin-top: 10px;
     list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
 }
