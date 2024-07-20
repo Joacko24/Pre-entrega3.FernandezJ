@@ -7,10 +7,9 @@
     font-style: normal;
 }
 
-section{
-
+body{
+    overflow: visible;
 }
-
 .hero{
     background-image: url("../img/fondo.png");
     background-size: cover;
@@ -29,29 +28,44 @@ section{
     background-image: url("../img/fondo.jpg");
     background-size: cover;
     height: 100vh;
-    align-items:flex-end;
-    justify-content:flex-end;
-    background-position-x: center;
-    color: #ffffff;
+    background-position: center;
+    
 }
 
-.card-text{
-    justify-content: left;
-    font-size: 14px;
+.tarjeta{
+    flex: 50%;
+    margin: 0 20px;
+    border: 1px solid #ffffff;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contenido{
+    color: #ffffff;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.tarjeta .pie_tarjeta{
+    background-color: rgb(224, 29, 224);
+    padding: 10px;
+    align-content:center;
 }
 
 .formulario{
     display: block;
     height: 2rem;
-    margin: 10px;
     margin-left: 40px;
-    
     border: 0;
-    border-radius: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    color: #ffffff;
 }
 
 .radio{
     margin-left: 40px;
+    color: #ffffff;
 }
 
 .button{
@@ -59,8 +73,8 @@ section{
     margin-left: 40px;
     display: block;
     border: none;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 footer {
@@ -69,6 +83,7 @@ footer {
     padding: 10px;
     position: absolute;
     width: 100%;
+    margin-bottom: 0;
     
 }
 
@@ -85,4 +100,8 @@ li{
 a{
     color: #ffffff;
     text-decoration: none;
+}
+
+.copy{
+    margin-left: 20px;
 }
