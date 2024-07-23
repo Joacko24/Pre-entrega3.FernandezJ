@@ -18,7 +18,8 @@
 }
 
 .altura{
-    margin-bottom: 150px;
+    margin-bottom: 200px;
+    color: white;
 }
 
 .fondo{
@@ -31,10 +32,14 @@
 
 .card-position{
     padding: 40px;
+    width: 100%;
 }
-
+.carta-imagen{
+    border-radius: 6px;
+}
 .card-text{
     font-size: 14px;
+    width: 100%;
 }
 
 .formulario{
