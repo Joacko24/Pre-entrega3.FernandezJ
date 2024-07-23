@@ -40,39 +40,41 @@
 
     
     <main class="fondo">
-        <form>
-
-            <label class="formulario espacio" for="nombre">Nombre y Apellido</label>
-            <input class="formulario " type="text" placeholder="Ingrese su nombre" id="nombre" required>
-
-            <label class="formulario espacio" for="mail">Ingrese su Mail</label>
-            <input class="formulario " type="email" placeholder="Ingrese su email" id="mail" required>
-
-            <label class="formulario espacio" for="telefono">Telefono</label>
-            <input class="formulario" type="number" placeholder="Ingrese su telefono" id="telefono" required>
-
-            <label class="formulario espacio" for="seleccion">Elija una opcion</label>
-            <select class="formulario espacio" name="genero" id="">
-            <option selected disabled>Seleccione un genero</option>
-            <option>Masculino</option required>
-            <option>Femenino</option required>
-            <option>Otro</option required>
-            </select>
-
-            <label class="formulario espacio">¿Desea recibir actualizaciones en su mail?</label>
-
-            <label class="radio" for="si"> Si
-            <input  type="radio" name="unico" id="si">
-            </label>
-
-            <label class="radio espacio" for="no">No
-            <input type="radio" name="unico" id="no">
-            </label>
+        <form class="formulario posi-formulario">
             
-            <button class="button" type="submit">Enviar</button>
-            <button class="button" type="reset">Cancelar</button>
+                <img class="formulario imagen-formulario" src="../img/logo.png">
+                <label class="formulario espacio" for="nombre">Nombre y Apellido</label>
+                <input class="formulario texto-etiqueta" type="text" placeholder="Ingrese su nombre" id="nombre" required>
 
+                <label class="formulario espacio" for="mail">Ingrese su Mail</label>
+                <input class=" formulario texto-etiqueta" type="email" placeholder="Ingrese su email" id="mail" required>
+
+                <label class="formulario espacio" for="telefono">Telefono</label>
+                <input class="formulario texto-etiqueta" type="number" placeholder="Ingrese su telefono" id="telefono" required>
+
+                <label class="formulario espacio" for="seleccion">Elija una opcion</label>
+                <select class="formulario espacio texto-etiqueta" name="genero" id="">
+                <option selected disabled>Seleccione un genero</option>
+                <option>Masculino</option required>
+                <option>Femenino</option required>
+                <option>Otro</option required>
+                </select>
+
+                <label class="formulario espacio">¿Desea recibir actualizaciones en su mail?</label>
+
+                <label class="radio" for="si"> Si
+                <input  type="radio" name="unico" id="si">
+                </label>
+
+                <label class="radio espacio" for="no">No
+                <input type="radio" name="unico" id="no">
+                </label>
+            
+                <button class="button" type="submit">Enviar</button>
+                <button class="button" type="reset">Cancelar</button>
+            
         </form>
+        
 
     </main>
 

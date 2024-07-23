@@ -29,28 +29,15 @@ body{
     background-size: cover;
     height: 100vh;
     background-position: center;
-    
-}
-
-.tarjeta{
-    flex: 50%;
-    margin: 0 20px;
-    border: 1px solid #ffffff;
     display: flex;
-    flex-direction: column;
-    
 }
 
-.contenido{
-    color: #ffffff;
-    flex-grow: 1;
-    flex-shrink: 1;
+.card-position{
+    padding: 40px;
 }
 
-.tarjeta .pie_tarjeta{
-    background-color: rgb(224, 29, 224);
-    padding: 10px;
-    align-content:center;
+.card-text{
+    font-size: 18px;
 }
 
 .formulario{
@@ -61,6 +48,17 @@ body{
     border-radius: 5px;
     padding: 5px;
     color: #ffffff;
+}
+
+.texto-etiqueta{
+    color: black;
+}
+.posi-formulario{
+    padding: 80px;
+}
+
+.imagen-formulario{
+    height: 150px;
 }
 
 .radio{
@@ -75,6 +73,10 @@ body{
     border: none;
     padding: 5px;
     border-radius: 5px;
+}
+
+video{
+    width: 100%;
 }
 
 footer {
