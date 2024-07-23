@@ -74,9 +74,22 @@
     border-radius: 5px;
 }
 
-video{
-    width: 100%;
+.carta-contacto{
+    align-items: end;
+    align-content: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
 
 footer{
     background-color: #202020;
@@ -104,7 +117,7 @@ li:hover{
     padding-left: 6px;
 }
 
-a{
+footer a{
     color: #ffffff;
     text-decoration: none;
     transition: all .3s ease;
