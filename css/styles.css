@@ -7,9 +7,6 @@
     font-style: normal;
 }
 
-body{
-    overflow: visible;
-}
 .hero{
     background-image: url("../img/fondo.png");
     background-size: cover;
@@ -81,14 +78,13 @@ video{
     width: 100%;
 }
 
-footer {
+footer{
     background-color: #202020;
     color: #ffffff;
-    padding: 10px;
+    padding: 40px;
     position: absolute;
     width: 100%;
     margin-bottom: 0;
-    
 }
 
 .navegacion__footer{
@@ -99,13 +95,29 @@ footer {
 li{
     margin-top: 10px;
     list-style: none;
+    font-size: 12px;
+    transition: all .3s ease;
+}
+
+li:hover{
+    color:#6d0d6d;
+    padding-left: 6px;
 }
 
 a{
     color: #ffffff;
     text-decoration: none;
+    transition: all .3s ease;
 }
 
+a:hover{
+    color:#6d0d6d;
+    padding-left: 6px;
+}
+
+ul h5{
+    text-decoration:underline;
+}
 .copy{
     margin-left: 20px;
 }
