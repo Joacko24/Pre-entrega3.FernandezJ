@@ -8,35 +8,38 @@
 }
 
 .hero{
-    background-image: url("../img/fondo.png");
+    background: url("../img/fondo.png") fixed;
     background-size: cover;
     height: 100vb;
     align-items:flex-end;
     justify-content:flex-end;
     background-position-x: center;
     color: #ffffff;
+    
 }
 
 .altura{
-    margin-bottom: 200px;
+    margin-top: 40px;
     color: white;
 }
 
 .fondo{
-    background-image: url("../img/fondo.jpg");
+    min-width: 100%;
+    background: url("../img/fondo.jpg") no-repeat center center fixed;
     background-size: cover;
-    height: 100vh;
-    background-position: center;
-    display: flex;
+    
 }
 
 .card-position{
     padding: 40px;
     width: 100%;
 }
+
 .carta-imagen{
     border-radius: 6px;
+    width: 100%;
 }
+
 .card-text{
     font-size: 14px;
     width: 100%;
@@ -80,13 +83,17 @@
 }
 
 .carta-contacto{
-    align-items: end;
+    align-items:end;
     align-content: center;
     align-self: center;
     display: flex;
     flex-direction: column;
-    padding: 40px;
+    padding: 20px;
+}
 
+.contacto-titulo{
+    font-size: 30px;
+    padding: 10px 0px;
 }
 
 a{
@@ -94,15 +101,13 @@ a{
     color: black;
 }
 
-
-
 footer{
     background-color: #202020;
     color: #ffffff;
     padding: 40px;
     position: absolute;
     width: 100%;
-    margin-bottom: 0;
+    margin-top:;
 }
 
 .navegacion__footer{
@@ -122,6 +127,18 @@ li:hover{
     padding-left: 6px;
 }
 
+.tarjetas-clips{
+    display: flex;
+    flex-direction: column;
+    width: ;
+}
+
+.tarjeta-clips{
+    margin: 10px;
+    border: 5px solid white;
+    border-radius: 6px;
+}
+
 footer a{
     color: #ffffff;
     text-decoration: none;
@@ -136,6 +153,7 @@ a:hover{
 ul h5{
     text-decoration:underline;
 }
+
 .copy{
     margin-left: 20px;
 }
